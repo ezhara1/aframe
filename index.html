@@ -5,7 +5,7 @@
   <body>
     <a-scene background="color:#222222">
       
-      <a-sky id="background-img" color="#EBEBEB"></a-sky>
+     
       
       <a-assets>
     <a-asset-item id="tree-obj" src="oleg.obj"></a-asset-item>
@@ -14,6 +14,7 @@
   </a-assets>
 
        <a-entity obj-model="obj: #tree-obj"></a-entity>
+      <a-obj-model src="#tree-obj" scale="0.1 0.1 0.1"></a-obj-model>
   
       
     </a-scene>
